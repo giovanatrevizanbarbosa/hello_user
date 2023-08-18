@@ -4,9 +4,9 @@
 int main(){
     char name[50];
     printf("Digite nome: ");
-    fgets(nome, 40, stdin);
+    fgets(name, 40, stdin);
 
-    imprime(nome);
+    imprime(name);
 
     return 0;
 }
